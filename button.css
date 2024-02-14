@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Presley';
+    src: url('font/Presley.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    margin: auto;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Presley', sans-serif;
+    font-size: 1rem;
+    top: 50px;
+    margin-bottom: 50px;
+   }
+   
+   button.learn-more {
+    font-weight: 600;
+    color: #4d0e3f;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #ffb4e0;
+    border: 2px solid #941984;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.learn-more::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e93ebe;
+    border-radius: inherit;
+    -webkit-box-shadow: 0 0 0 2px #941979, 0 0.625em 0 0 #f05be4;
+    box-shadow: 0 0 0 2px #941994, 0 0.625em 0 0 #941994;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.learn-more:hover {
+    background: #ffb4ff;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+   }
+   
+   button.learn-more:hover::before {
+    -webkit-box-shadow: 0 0 0 2px #81167c, 0 0.5em 0 0 #cc41c0;
+    box-shadow: 0 0 0 2px #941994, 0 0.5em 0 0 #941994;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+   }
+   
+   button.learn-more:active {
+    background: #ffb4ff;
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+   }
+   
+   button.learn-more:active::before {
+    -webkit-box-shadow: 0 0 0 2px #811678, 0 0 #cc41cc;
+    box-shadow: 0 0 0 2px #81167c, 0 0 #c741cc;
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+   }
+
+
+
+
+   button.learn-more2 {
+    font-weight: 600;
+    color: #4d0e48;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #ffb4fb;
+    border: 2px solid #8a1994;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.learn-more2::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e93ee1;
+    border-radius: inherit;
+    -webkit-box-shadow: 0 0 0 2px #941984, 0 0.625em 0 0 #f05be9;
+    box-shadow: 0 0 0 2px #94198a, 0 0.625em 0 0 #e45bf0;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+   }
+   
+   button.learn-more2:hover {
+    background: #ffb4f3;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+   }
+   
+   button.learn-more2:hover::before {
+    -webkit-box-shadow: 0 0 0 2px #81166f, 0 0.5em 0 0 #cc41c0;
+    box-shadow: 0 0 0 2px #81167c, 0 0.5em 0 0 #cc41c5;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+   }
+   
+   button.learn-more2:active {
+    background: #d18ace;
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+   }
+   
+   button.learn-more2:active::before {
+    -webkit-box-shadow: 0 0 0 2px #811681, 0 0 #cc41cc;
+    box-shadow: 0 0 0 2px #811681, 0 0 #c041cc;
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+   }

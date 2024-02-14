@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'The Sally';
+    src: url('font/The\ Sally.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Simon';
+    src: url('font/Simon\ Lovely.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/bg.png');
+    color: rgb(163, 69, 84);
+    font-size: 1.8rem;
+    font-family: 'Presley', sans-serif;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.back-btn{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/back.png");
+    position: absolute;
+    top: 23px;
+    filter: drop-shadow(0px 0px 10px rgb(255, 205, 113));
+}
+
+h1 {
+    font-family: 'The Sally', sans-serif;
+    color: #fcd580;
+    text-align: center;
+    position: relative;
+    font-size: 4rem;
+    text-shadow: 0 0 10px rgba(252, 213, 128, 0.8), 0 0 20px rgba(252, 213, 128, 0.5), 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: glow 2s infinite;
+    line-height: 0.2;
+}
+
+.p1{
+    padding-top: 20px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Simon', sans-serif;
+    color: rgb(252, 213, 128);
+    text-align: center;
+    position: relative;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.messages-container{
+    background-color: rgb(100, 19, 89);
+    border-radius: 10%;
+    margin: auto;
+    height: 710px;
+    width: 345px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px rgba(252, 213, 128, 0.5), 0 0 20px rgba(252, 213, 128, 0.5), 0 0 30px rgba(252, 213, 128, 0.5)5
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(252, 213, 128, 0.5), 0 0 30px rgba(252, 213, 128, 0.5), 0 0 40px rgba(252, 213, 128, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(252, 213, 128, 0.5), 0 0 20px rgba(252, 213, 128, 0.5), 0 0 30px rgba(252, 213, 128, 0.5);
+    }
+}
